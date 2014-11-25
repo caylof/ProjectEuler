@@ -4,7 +4,7 @@
 def fib(max):
     a, b = 1, 2
     while a <= max:
-        yield b
+        yield a
         a, b = b, a+b
 
 
